@@ -2,18 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: #0D0D0D;
 }
 
 #plant-img {
     display: block;
     height: 100vh;
-    width: 475px;
+    width: 460px;
     object-fit: cover;
 }
 
@@ -22,25 +23,34 @@ body {
     height: 100vh;
 }
 
+.intro-text {
+    background-color: #F9F7F5;
+    padding: 140px 120px 40px 40px;
+}
+
 .form-container {
     width: 800px;
-    background-color: white;
+    background-color: #FBFBFB;
 }
 
-.intro-text {
-    padding: 120px 90px 0px 40px;
-}
-
-p {
-    padding-bottom: 30px;
+.intro-text p {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 20px;
 }
 
 .form {
-    padding: 40px 0px 40px 40px;
+    padding: 20px 0px 40px 40px;
 }
 
-form div {
-    display: block;
+.form p {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+tr, td {
+    padding: 10px 10px 10px 0px;
 }
 
 label {
@@ -48,10 +58,18 @@ label {
 }
 
 .create-account {
+    background-color: #F9F7F5;
     padding: 60px 0px 0px 40px;
+    height: calc(100vh - 586px);
 }
 
 button {
-    padding: 5px;
+    background-color: #596D48;
+    color: #FBFCFD;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 50px 12px 50px;
     margin: 10px 10px 10px 0px;
+    border-radius: 8px;
+    border: 0;
 }
