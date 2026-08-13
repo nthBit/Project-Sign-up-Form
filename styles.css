@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+#plant-img {
+    display: block;
+    height: 100vh;
+    width: 475px;
+    object-fit: cover;
+}
+
+.main-container {
+    display: flex;
+    height: 100vh;
+}
+
+.form-container {
+    width: 800px;
+    background-color: white;
+}
+
+.intro-text {
+    padding: 120px 90px 0px 40px;
+}
+
+p {
+    padding-bottom: 30px;
+}
+
+.form {
+    padding: 40px 0px 40px 40px;
+}
+
+form div {
+    display: block;
+}
+
+label {
+    display: block;
+}
+
+.create-account {
+    padding: 60px 0px 0px 40px;
+}
+
+button {
+    padding: 5px;
+    margin: 10px 10px 10px 0px;
+}
