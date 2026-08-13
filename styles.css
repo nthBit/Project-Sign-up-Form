@@ -5,10 +5,52 @@
     font-family: sans-serif;
 }
 
+@font-face {
+    font-family: bold-norse;
+    src: url(./norse/Norsebold.otf);
+}
+
 body {
     display: flex;
     justify-content: center;
     background-color: #0D0D0D;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #0D0D0D80;
+    width: 460px;
+    height: 150px;
+    top: 200px;
+}
+
+#odin-logo {
+    width: 90px;
+}
+
+h1 {
+    font-family: bold-norse;
+    font-size: 90px;
+    color: white;
+}
+
+.reference {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 460px;
+    height: 40px;
+    bottom: 0px;
+    color: white;
+    font-size: 12px;
+}
+
+.reference a {
+    color: white;
 }
 
 #plant-img {
@@ -49,8 +91,8 @@ body {
     padding-bottom: 10px;
 }
 
-tr, td {
-    padding: 10px 10px 10px 0px;
+td {
+    padding: 10px 50px 10px 0px;
 }
 
 label {
@@ -60,10 +102,22 @@ label {
 }
 
 input {
-    padding: 5px;
+    padding: 5px 15px 5px 15px;
     font-size: 14px;
     border-radius: 5px;
     border: #D3D3D3 solid 1px;
+}
+
+input:focus {
+    outline: none;
+    border: solid 1px rgb(64, 64, 250);
+    box-shadow: 3px 3px rgb(224, 224, 224);
+}
+
+input:user-invalid {
+    outline: none;
+    border: solid 1px rgb(250, 68, 68);
+    box-shadow: 3px 3px rgb(224, 224, 224);
 }
 
 .line-break hr {
@@ -75,7 +129,7 @@ input {
 .create-account {
     background-color: #F9F7F5;
     padding: 20px 0px 0px 40px;
-    height: calc(100vh - 586px);
+    height: calc(100vh - 589px);
 }
 
 button {
