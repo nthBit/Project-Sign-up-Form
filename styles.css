@@ -40,7 +40,7 @@ body {
 }
 
 .form {
-    padding: 20px 0px 40px 40px;
+    padding: 20px 0px 20px 40px;
 }
 
 .form p {
@@ -55,11 +55,26 @@ tr, td {
 
 label {
     display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+input {
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: #D3D3D3 solid 1px;
+}
+
+.line-break hr {
+    border: none;
+    height: 10px;
+    background-image: linear-gradient(#e0e0e0be, #e0e0e083, #e0e0e000);
 }
 
 .create-account {
     background-color: #F9F7F5;
-    padding: 60px 0px 0px 40px;
+    padding: 20px 0px 0px 40px;
     height: calc(100vh - 586px);
 }
 
@@ -69,7 +84,13 @@ button {
     font-weight: bold;
     font-size: 16px;
     padding: 12px 50px 12px 50px;
-    margin: 10px 10px 10px 0px;
+    margin: 0px 10px 30px 0px;
     border-radius: 8px;
     border: 0;
+}
+
+a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
 }
